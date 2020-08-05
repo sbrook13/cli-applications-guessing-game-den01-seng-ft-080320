@@ -1,5 +1,6 @@
 # Code your solution here!
 def run_guessing_game
+<<<<<<< HEAD
   num = rand(6)+1
   guess = gets
   if guess == "exit" 
@@ -9,4 +10,9 @@ def run_guessing_game
   else
     puts "Sorry! The computer guessed #{num}."
   end  
+=======
+  num = rand(1..6)
+  guess = gets.chomp
+  if guess == num
+>>>>>>> 85bbfdb72e8a20992d22b5082c88733217d0af92
 end  
